@@ -22,7 +22,7 @@ export const Article = () => {
 				Фото: Hans-Peter Gauster , &quot;Bombardier CSeries CS300 HB-JCA&quot; ©
 				2017 CC BY-SA 2.0
 			</Text>
-			<Text dynamic size={18}>
+			<Text dynamic size={18} fontStyle='italic'>
 				В конце 2016 года швейцарская авиакомпания Swiss получила свой первый
 				канадский «Бомбардье CS300» для полётов малой и средней дальности. Чтобы
 				придать новой 145-местной машине неповторимую индивидуальность, ливрею
