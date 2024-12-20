@@ -11,6 +11,7 @@ import {
 
 import './styles/index.scss';
 import styles from './styles/index.module.scss';
+import ErrorBoundary from '../src/ErrorBoundary';
 
 const domNode = document.getElementById('root') as HTMLDivElement;
 const root = createRoot(domNode);
@@ -41,7 +42,9 @@ const App = () => {
 };
 
 root.render(
-	<StrictMode>
-		<App />
-	</StrictMode>
+  <StrictMode>
+    <ErrorBoundary>
+      <App />
+    </ErrorBoundary>
+  </StrictMode>
 );
